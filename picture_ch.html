@@ -1,0 +1,274 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by TEMPLATED
+http://templated.co
+Released for free under the Creative Commons Attribution License
+
+Name       : Undeviating 
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20140322
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900|Quicksand:400,700|Questrial" rel="stylesheet" />
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+
+<!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+</head>
+<style>
+    ol{
+        list-style: none;
+        counter-reset: num;
+        font-size: 1em;
+        font-family: Helvetica;
+        margin-left: 0;
+        padding: 0;
+    }
+    liw:before{
+        counter-increment: num;
+        content: "[" counter(num) "]";
+        margin-right: 5px;
+        font-weight: normal;
+        font-size: 1em;
+        font-weight: bold;
+        font-family: Helvetica;
+    }
+    .pdall{
+        border: 2px solid; border-collapse: collapse;
+    }
+    .pd{
+        border: 2px solid; font-family: Helvetica;
+    }
+    
+   .slider_container {
+    margin: 30px auto;
+    width: 900px;
+    height: 598px;
+    position: relative;
+    border: 20px solid;    
+    border-color: #fff;
+    border-bottom-width: 100px;
+    background-color: #f5f5f5;
+    box-shadow: #666 0 0 5px;
+}
+
+.slider_container div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+    .slider_container div {
+    -webkit-animation: round 25s linear infinite;
+            animation: round 25s linear infinite;
+    }
+
+    .slider_container div {
+    -webkit-animation: round 25s linear infinite;
+            animation: round 25s linear infinite;
+}
+
+@-webkit-keyframes round {
+    4% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 0 - 1秒 淡入*/
+    }
+    20% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 1- 5秒靜止*/
+    }
+    24% {
+        opacity: 0;
+        filter: alpha(opacity=0);
+        /* 5-6秒淡出*/
+    }
+}
+@keyframes round {
+    4% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 0 - 1秒 淡入*/
+    }
+    20% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 1- 5秒靜止*/
+    }
+    24% {
+        opacity: 0;
+        filter: alpha(opacity=0);
+        /* 5-6秒淡出*/
+    }
+}
+   .slider_container div:nth-child(5) {
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+}
+
+.slider_container div:nth-child(4) {
+    -webkit-animation-delay: 5s;
+            animation-delay: 5s;
+}
+
+.slider_container div:nth-child(3) {
+    -webkit-animation-delay: 10s;
+            animation-delay: 10s;
+}
+
+.slider_container div:nth-child(2) {
+    -webkit-animation-delay: 15s;
+            animation-delay: 15s;
+}
+
+.slider_container div:nth-child(1) {
+    -webkit-animation-delay: 20s;
+            animation-delay: 20s;
+}
+   .slider_container span {    
+    color: #000;
+    background: #fff;
+    position: absolute;
+    left: 0%;
+    top: 598px;
+    width: 900px;
+    height: 100px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+    -webkit-transform:scaleY(0);
+        -ms-transform:scaleY(0);
+            transform:scaleY(0);
+    -webkit-transition: all 0.5s ease-in-out;
+            transition: all 0.5s ease-in-out;
+}
+
+.slider_container:hover span {
+    width: 100%;
+    -webkit-transform:scaleY(1);
+        -ms-transform:scaleY(1);
+            transform:scaleY(1);
+}
+
+.slider_container:hover div {
+    -webkit-animation-play-state: running;
+            animation-play-state: running;
+}
+ 
+</style>
+    
+
+    
+<body>
+
+
+        
+<div id="header-wrapper">
+	<div id="header" class="container">
+		<div id="logo">
+        	<span class="icon icon-cog"></span>
+            <h1><a href="index.html"><font face="微軟正黑體">電子設計自動化實驗室</font></a></h1>
+		</div>
+		<div id="menu">
+			<ul><font face="微軟正黑體">
+				<li><a href="index_ch.html" accesskey="1" title="">首頁</a></li>
+                <li><a href="news_ch.html" accesskey="1" title="">最新消息</a></li>
+				<li><a href="teacher_ch.html" accesskey="2" title="">指導老師</a></li>
+				<li><a href="student_ch.html" accesskey="3" title="">歷屆學生</a></li>
+				<li><a href="research_ch.html" accesskey="4" title="">研究簡介</a></li>
+                <li><a href="write_ch.html"  accesskey="5" title="">學術著作</a></li>
+                <li><a href="honor_ch.html"  accesskey="5" title="">榮譽事蹟</a></li>
+                <li class="active"><a href="picture_ch.html"  accesskey="5" title="">活動照片</a></li>
+				<li><a href="contact_ch.html" accesskey="5" title="">聯絡我們</a></li>
+            </font></ul>
+		</div>
+	</div>
+</div>
+
+<div class="wrapper">
+	<!--<div id="banner" class="container"><img src="images/banner.jpg" width="1200" height="500" alt="" />-->
+    
+<div id="welcome_s" class="container">
+    <div class="slider_container">
+    <div>
+        <img src="images/2006-CAD比賽3.JPG" alt="pure css3 slider" />
+        <span class="info">2006-CAD比賽3</span>
+    </div>
+    <div>
+        <img src="images/2006-CAD比賽2.JPG" alt="pure css3 slider" />
+        <span class="info">2006-CAD比賽2</span>
+    </div>
+	<div>
+        <img src="./images/2006-CAD比賽1.JPG" alt="pure css3 slider" />
+        <span class="info">2006-CAD比賽1</span>
+    </div>
+	<div>
+        <img src="images/2008-CAD比賽3.JPG" alt="pure css3 slider" />
+        <span class="info">2008-CAD比賽3</span>
+    </div>
+
+    <div>
+        <img src="images/2008-CAD比賽2.JPG" alt="pure css3 slider" />
+        <span class="info">2008-CAD比賽2</span>
+    </div>
+    <div>
+        <img src="./images/2008-CAD比賽1.JPG" alt="pure css3 slider" />
+        <span class="info">2008-CAD比賽1</span>
+    </div>
+    <div>
+        <img src="images/2009-苗栗三義.JPG" alt="pure css3 slider" />
+        <span class="info">2009-苗栗三義</span>
+    </div>
+    <div>
+        <img src="images/2009-程式寫不出來-臥軌.JPG" alt="pure css3 slider" />
+        <span class="info">2009-程式寫不出來-臥軌</span>
+    </div>
+
+</div>
+    
+</div>
+    </div>
+
+<div id="footer"><font face="微軟正黑體">
+	<div class="container">
+		<div class="fbox1">
+		<span class="icon icon-map-marker"></span>
+			<span>320 桃園市中壢區中北路200號
+			<br />中原大學電學大樓 617A室</span>
+		</div>
+		<div class="fbox1">
+			<span class="icon icon-phone"></span>
+			<span>
+				Telephone: (03)2654634
+			</span>
+		</div>
+		<div class="fbox1">
+			<span class="icon icon-envelope"></span>
+			<span>g10676034@cycu.edu.tw</span>
+		</div>
+	</div>
+    </font>
+</div>
+<div id="copyright">
+	<p>2016&copy; EDA Lab. All rights reserved.</p>
+    <!--
+	<ul class="contact">
+		<li><a href="#" class="icon icon-twitter"><span>Twitter</span></a></li>
+		<li><a href="#" class="icon icon-facebook"><span></span></a></li>
+		<li><a href="#" class="icon icon-dribbble"><span>Pinterest</span></a></li>
+		<li><a href="#" class="icon icon-tumblr"><span>Google+</span></a></li>
+		<li><a href="#" class="icon icon-rss"><span>Pinterest</span></a></li>
+	</ul>
+    -->
+</div>
+</body>
+</html>
